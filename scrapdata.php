@@ -12,7 +12,7 @@ error_reporting(E_ALL);*/
 /* -----||--------||-------|||||||-------||||||||-------*/
   $date_data = $_POST['date'];
 
-  $base = "https://www.statarea.com/predictions/date/".$date_data."/competition";
+  $base = "https://www.example.com/predictions/date/".$date_data."/competition";
 
   $curl = curl_init();
   curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, FALSE);
